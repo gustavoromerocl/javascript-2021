@@ -1,5 +1,11 @@
 # javascript-2021
 
+# Sintaxis
+
+nvm install --version de node -> instala una versión de node
+nvm use --version de node -> usa la versión indicada
+nvm ls -> Lista las versiones instaladas
+
 # Conceptos básicos
 
 **como es el lenguaje técnicamente**
@@ -60,3 +66,13 @@ x > y Mayor que
 x <  y menor que
 >= Mayor o igual que
 <= Menor o igual que
+
+**Operadores lógicos**
+
+4 operadores lógicos
+
+&& operador AND
+|| operador OR
+! NOT
+?? Operador Nullish Coalescing - Fusión de nulos
+

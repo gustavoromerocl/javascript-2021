@@ -1,6 +1,6 @@
 /**Variables y contantes en javascript */
 
-console.log("\n\n Variables y contantes en javascript ");
+console.log("\n\n Variables y constantes en javascript ");
 let nombre = "Gustavo";
 
 nombre = 2.2;
@@ -59,3 +59,42 @@ console.log(resultado);
 
 resultado = Boolean("");
 console.log(resultado);
+
+/**Operadores lógicos */
+
+console.log("\n\n Operadores lógicos ");
+
+//El operador AND se detiene cuando se encuentra con un false y retorna la expresion, de lo contrario retorna la ultima expresion truthy
+console.log("\n AND");
+console.log(true && true);
+console.log(false && false);
+console.log(true && false);
+console.log(false && true);
+
+console.log(20 && 10);
+console.log(10 && 20);
+console.log(20 && 5 && false && 80);
+
+// OR se detiene una vez que encuentra una expresion verdadera y si no encuentra niguno retorna el último falsy
+console.log("\n OR");
+console.log(true || true);
+console.log(false || false);
+console.log(true || false);
+console.log(false || true);
+
+console.log(20 || 10);
+console.log(10 || 20);
+console.log(20 || 5 && false && 80);
+
+//El operador NOT invierte el resultado de la expresión booleana
+console.log("\n NOT");
+console.log(!true)
+
+/* El operador de fusión nula ( ??) es un operador lógico que devuelve su operando del lado derecho 
+cuando su operando del lado izquierdo es nullo undefined, y de lo contrario devuelve su operando 
+del lado izquierdo. */
+console.log("\n NULLISH COALISCING");
+
+console.log(null ?? "El primer valor es nulo");
+
+console.log("El primer valor no es nulo" ?? "hola mundo");
