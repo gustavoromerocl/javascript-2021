@@ -86,3 +86,11 @@ IF ELSE IF
 
 break termina la ejecución / continue salta a la siguiente iteración
 
+**Undefined, null y NaN**
+
+typeof -> retorna el tipo de dato
+
+undefined -> si la variable no existe, ni ha sido inicializada su tipo de dato será undefined;
+null -> es de tipo objeto por lo que es asignable a otras variables
+NaN ->  indica que el resultado de una operación no es número
+infinity -> indica que el valor obtenido es infinito

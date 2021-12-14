@@ -135,3 +135,15 @@ do{
 
     if(iterador==10) break;
 }while(iterador <= 10);
+
+console.log("\n undefined, null, NaN");
+
+nombre = null;
+console.log(typeof nombre);
+console.log(typeof apellido); //apellido no existe
+
+console.log(null == undefined);
+
+console.log("dasd" * 3);
+
+console.log(10 / 0);
