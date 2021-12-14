@@ -76,3 +76,9 @@ x <  y menor que
 ! NOT
 ?? Operador Nullish Coalescing - Fusión de nulos
 
+**Condiciones**
+
+IF
+IF ELSE
+IF ELSE IF
+
