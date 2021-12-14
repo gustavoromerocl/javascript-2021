@@ -11,3 +11,22 @@ Javascript es un lenguaje débilmente y dinámicamente tipado, es decir que no t
 **Qué son las variables y las constantes**
 
 Las variables son valores que tiene un indetificador y se valor puede cambiar constatemente. Las constantes también almacenan valores, sin embargo el valor de estas no cambia.
+
+**Números y operaciones aritméticas**
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+**Tipos de datos**
+
+string -> String() 
+number -> Number()
+boolean -> Boolean()
+undefined -> Symbol()
+symbol
+null
+
+BigInt()
+
+**Coersión de tipos**
+
+Conversión del tipo de dato realizada de forma implícita por javascript, se recomienda hacer explícitamente para evitar interpretaciones erroneas.
