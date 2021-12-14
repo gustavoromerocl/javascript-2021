@@ -30,3 +30,7 @@ BigInt()
 **Coersión de tipos**
 
 Conversión del tipo de dato realizada de forma implícita por javascript, se recomienda hacer explícitamente para evitar interpretaciones erroneas.
+
+**Booleanos**
+
+Expresiones que retornan false: undefined, NaN, null, -0, 0, "", false

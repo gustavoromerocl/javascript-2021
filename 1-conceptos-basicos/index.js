@@ -38,3 +38,24 @@ console.log([] == 0);
 
 console.log(10 + "10");
 console.log(Number("10") + 10);
+
+/* Booleanos */
+
+console.log("\n\n Booleanos");
+
+//Ejemplos de uso:
+let notificaciones = false;
+let activo = true;
+
+//Evaluando expresiones:
+let resultado = Boolean(1);
+console.log(resultado);
+
+resultado = Boolean(0);
+console.log(resultado);
+
+resultado = Boolean("false");
+console.log(resultado);
+
+resultado = Boolean("");
+console.log(resultado);
