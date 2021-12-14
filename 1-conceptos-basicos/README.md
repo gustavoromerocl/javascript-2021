@@ -82,3 +82,7 @@ IF
 IF ELSE
 IF ELSE IF
 
+**Ciclos**
+
+break termina la ejecución / continue salta a la siguiente iteración
+

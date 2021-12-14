@@ -98,3 +98,40 @@ console.log("\n NULLISH COALISCING");
 console.log(null ?? "El primer valor es nulo");
 
 console.log("El primer valor no es nulo" ?? "hola mundo");
+
+/** Ciclos */
+
+console.log("\n\n CICLOS");
+
+console.log("\nFOR con break");
+for( i=0; i < 10; i++){
+    if(i==5) break;
+    console.log(i + 1);
+}
+
+console.log("\nFOR con continue");
+for( i=0; i < 10; i++){
+    if(i==5) continue;
+    //se salta la ejecución, por lo tanto no imprime el resultado
+    console.log(i + 1);
+}
+
+console.log("\n WHILE")
+let iterador = 0;
+
+while(iterador <= 10){
+    iterador++;
+    console.log(iterador);
+
+    if(iterador==10) break;
+}
+
+console.log("\n DO WHILE");
+iterador = 0;
+
+do{
+    iterador++;
+    console.log(iterador);
+
+    if(iterador==10) break;
+}while(iterador <= 10);
