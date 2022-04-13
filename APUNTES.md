@@ -113,3 +113,20 @@ El scope local restringe el acceso a la información fuera de el bloque de códi
 El alcance de bloque es el que esta en la estructura de control if, que podría ser cualquier otra
 Las variables declaradas con var tienen alcance de función, incluso estando dentro de un bloque puedes ser accedidas (Alcance de la función mas próxima)
 Las variables declaradas con let y const tienen alcance de bloque, es decir que solo tiene alcance dentro del bloque aunque este dentro de una función (Alcance del bloque más próximo)
+
+### Argumentos de funciones
+
+#### Parametro
+
+- El parametro es el que declaramos en la función
+- Los parametros no tiene un tipo de dato definido
+- En la declaración de parametro es posible asignar un valor por defecto, en caso de que no se reciba un argumento se usará dicho valor
+- Los parametros con valores por default deben ir al final de la declaración para evitar conflictos de asignación
+
+#### Argumento
+
+- El argumento es el que enviamos cuando ejecutamos la función
+- Los argumentos llenas los parametros
+- Javascript no valida la cantidad de argumentos que se envían a una función
+- Las funciones contienen dentro de sus props el objeto un array con los argumentos recibidos por la función
+- Este arreglo se puede usar para funciones que reciban argumentos y que tengan o no definido parametros en su declaración
