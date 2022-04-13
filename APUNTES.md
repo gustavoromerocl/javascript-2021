@@ -1,28 +1,28 @@
 # javascript-2021
 
-# Sintaxis
+## Sintaxis
 
 nvm install --version de node -> instala una versión de node
 nvm use --version de node -> usa la versión indicada
 nvm ls -> Lista las versiones instaladas
 
-# Conceptos básicos
+## Conceptos básicos
 
-**como es el lenguaje técnicamente**
+### como es el lenguaje técnicamente
 
 Javascript es un lenguaje interpretado, a diferencia de lenguajes como c# o java que son compilados, es decir que son ejecutados en tiempo de compilación. Javascript funciona en tiempo de ejecución, por lo que sí hay un error en el código, este no afectará la ejecución del programa hasta que se acceda a dicho recurso, a diferencia de un lenguaje compilado, que justamente en el proceso de compilación detecta los errores de código.
 
-Javascript es un lenguaje débilmente y dinámicamente tipado, es decir que no tiene mayores exigencias a la hora de definir los tipos de variables, estos son asinados de forma dinámica. También es sensible al uso mínusculas y mayúsculas
+Javascript es un lenguaje débilmente y dinámicamente tipado, es decir que no tiene mayores exigencias a la hora de definir los tipos de variables, estos son asignados de forma dinámica. También es sensible al uso mínusculas y mayúsculas
 
-**Qué son las variables y las constantes**
+### Qué son las variables y las constantes
 
-Las variables son valores que tiene un indetificador y se valor puede cambiar constatemente. Las constantes también almacenan valores, sin embargo el valor de estas no cambia.
+Las variables son valores que tiene un indetificador y su valor puede cambiar constatemente. Las constantes también almacenan valores, sin embargo el valor de estas no cambia.
 
-**Números y operaciones aritméticas**
+### Números y operaciones aritméticas
 
 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math
 
-**Tipos de datos**
+### Tipos de datos
 
 string -> String() 
 number -> Number()
@@ -33,15 +33,15 @@ null
 
 BigInt()
 
-**Coersión de tipos**
+### Coersión de tipos
 
 Conversión del tipo de dato realizada de forma implícita por javascript, se recomienda hacer explícitamente para evitar interpretaciones erroneas.
 
-**Booleanos**
+### Booleanos
 
 Expresiones que retornan false: undefined, NaN, null, -0, 0, "", false
 
-**Truthy y Falsy**
+### Truthy y Falsy
 
 En JavaScript y a lo largo del curso me escucharás usar dos conceptos que de hecho son bastante divertidos de pronunciar, los valores Truthy y Falsy.
 
@@ -53,7 +53,7 @@ En muchos contextos del lenguaje, decir que retorna verdadero o falso no es corr
 
 Cuando el intérprete necesita saber si un valor es truthy o falsy hace un proceso llamado type coercion, del que hablaremos más adelante, que en términos simples significa que hará una conversión implícita, si lo simplificamos más significa que el lenguaje convertirá el valor a verdadero para evaluar si es truthy o falsy. Esta conversión es, digamos, momentánea, el valor original o la variable no cambian su valor, javaScript sólo obtendrá su representación booleana para saber si es truthy o falsy, sin modificar el valor original.
 
-**Operadores de comparación**
+### Operadores de comparación
 
 8 operadores de comparación:
 
@@ -67,7 +67,7 @@ x <  y menor que
 >= Mayor o igual que
 <= Menor o igual que
 
-**Operadores lógicos**
+### Operadores lógicos
 
 4 operadores lógicos
 
@@ -76,17 +76,17 @@ x <  y menor que
 ! NOT
 ?? Operador Nullish Coalescing - Fusión de nulos
 
-**Condiciones**
+### Condiciones
 
 IF
 IF ELSE
 IF ELSE IF
 
-**Ciclos**
-
+### Ciclos
+for, for each, while, do while, case
 break termina la ejecución / continue salta a la siguiente iteración
 
-**Undefined, null y NaN**
+### Undefined, null y NaN
 
 typeof -> retorna el tipo de dato
 
@@ -94,3 +94,8 @@ undefined -> si la variable no existe, ni ha sido inicializada su tipo de dato s
 null -> es de tipo objeto por lo que es asignable a otras variables
 NaN ->  indica que el resultado de una operación no es número
 infinity -> indica que el valor obtenido es infinito
+
+## Fundamentos de funciones
+
+### Introducción a las funciones
+
