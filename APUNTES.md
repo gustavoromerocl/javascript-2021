@@ -100,3 +100,16 @@ infinity -> indica que el valor obtenido es infinito
 ### Introducción a las funciones
 
 ### El scope o alcance
+
+**Scope global:**
+Si se declara una variable fuera de una función o bloque de código esta sera asignada al scope global,
+es decir, que podrá ser accedida desde cualquier parte del código.
+
+**Scope local:**
+El scope local restringe el acceso a la información fuera de el bloque de código
+
+### Alcance de función y de bloque
+
+El alcance de bloque es el que esta en la estructura de control if, que podría ser cualquier otra
+Las variables declaradas con var tienen alcance de función, incluso estando dentro de un bloque puedes ser accedidas (Alcance de la función mas próxima)
+Las variables declaradas con let y const tienen alcance de bloque, es decir que solo tiene alcance dentro del bloque aunque este dentro de una función (Alcance del bloque más próximo)
