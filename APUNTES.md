@@ -99,3 +99,4 @@ infinity -> indica que el valor obtenido es infinito
 
 ### Introducción a las funciones
 
+### El scope o alcance
