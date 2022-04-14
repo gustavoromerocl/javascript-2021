@@ -139,3 +139,17 @@ Las variables declaradas con let y const tienen alcance de bloque, es decir que 
 ### Funciones puras 
 
 Una función pura no produce efectos secundarios, que no genera mutaciones fuera de la función
+
+### First class object
+
+Los objetos de primera clase en javascript son todos aquellos que complen con las siguientes caracteristicas:
+
+- Debe ser posible retornarlo
+- Debe ser posible asignarlo a una variable
+- Debe ser posible enviarlo como argumento 
+
+Por lo tanto, variables, objetos e incluso funciones son considerdas first class objects.
+
+#### Funcion de primera clase
+Un lenguaje de programación se dice que tiene Funciones de primera clase cuando las funciones en ese lenguaje son tratadas como cualquier otra variable. 
+Por ejemplo, en ese lenguaje, una función puede ser pasada como argumento a otras funciones, puede ser retornada por otra función y puede ser asignada a una variable.
