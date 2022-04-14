@@ -170,3 +170,17 @@ Un arreglo es un grupo ordenado de bloques y cada bloque es parte del arreglo. s
 - La última posición es la longitud menos 1. Corresponde al hecho de que las posiciones del arreglo inician en 0. A la posición se le conoce como indice
 - Tipo posicional, se accede a los valores por la posición de los elementos. Cada elemento del arreglo ocupa una posición
 - Los arrays no tienen longitud estática
+
+### Conceptos básicos de los arreglos
+
+- Los arreglos en javascript pueden contener cualquier dato de primera clase
+- Para acceder a la información se hace desde el índice
+- Para asignar un nuevo valor se realiza con la expresión =
+- Para agregar un nuevo elemento a la cola del arreglo lo podemos hacer con el método push
+- Para eliminar el último elemento, podemos usar el método pop
+- Para eliminar el primer elemento del arreglo, podemos usar shift
+- También podemos asignar el elemento eliminado a una variable
+- Asignar a una variable el resultado del método push o unshift, retorna la nueva longitud del array
+- Para agregar elementos al inicio del array, podemos usar el método unshift
+- Asignar el resultado de unshift a una variable retorna la longitud
+
