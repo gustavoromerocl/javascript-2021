@@ -184,3 +184,7 @@ Un arreglo es un grupo ordenado de bloques y cada bloque es parte del arreglo. s
 - Para agregar elementos al inicio del array, podemos usar el método unshift
 - Asignar el resultado de unshift a una variable retorna la longitud
 
+### Recorrer un arreglo
+
+Para recorrer un arreglo se utilizan estructuras de control que realicen ciclos sobre los elementos que contiene
+
