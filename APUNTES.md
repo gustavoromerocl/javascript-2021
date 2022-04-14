@@ -130,3 +130,8 @@ Las variables declaradas con let y const tienen alcance de bloque, es decir que 
 - Javascript no valida la cantidad de argumentos que se envían a una función
 - Las funciones contienen dentro de sus props el objeto un array con los argumentos recibidos por la función
 - Este arreglo se puede usar para funciones que reciban argumentos y que tengan o no definido parametros en su declaración
+
+### Pase por valor y por referencia
+
+- Los argumentos enviados por valor son una copia del original, por lo que no modifican la variable
+- Los argumentos enviados como arreglo de referencia y que son modificados desde el parametro modifican su origen, por lo tanto el valor original.
