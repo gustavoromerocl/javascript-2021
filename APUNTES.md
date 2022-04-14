@@ -133,5 +133,9 @@ Las variables declaradas con let y const tienen alcance de bloque, es decir que 
 
 ### Pase por valor y por referencia
 
-- Los argumentos enviados por valor son una copia del original, por lo que no modifican la variable
-- Los argumentos enviados como arreglo de referencia y que son modificados desde el parametro modifican su origen, por lo tanto el valor original.
+- Los argumentos enviados por valor son una copia del original, por lo que no modifican la variable (Aplica para cadenas, números, booleanos, etc)
+- Los argumentos enviados como arreglo de referencia y que son modificados desde el parametro modifican su origen, por lo tanto el valor original. (aplica para objetos y arrays)
+
+### Funciones puras 
+
+Una función pura no produce efectos secundarios, que no genera mutaciones fuera de la función
