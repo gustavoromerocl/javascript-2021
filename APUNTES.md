@@ -153,3 +153,8 @@ Por lo tanto, variables, objetos e incluso funciones son considerdas first class
 #### Funcion de primera clase
 Un lenguaje de programación se dice que tiene Funciones de primera clase cuando las funciones en ese lenguaje son tratadas como cualquier otra variable. 
 Por ejemplo, en ese lenguaje, una función puede ser pasada como argumento a otras funciones, puede ser retornada por otra función y puede ser asignada a una variable.
+
+### Hoisting
+
+En variables y funciones es posible declarar su inicialización despues de ejecutarlas o llamarlas.
+Javascript de forma interna genera el orden lógico. No obstante, se recomienda primera declararlas y posteriormente usarlas.
