@@ -216,3 +216,11 @@ Veamos en los siguientes temas más detalles de cómo funcionan estas operacione
 
 - ForEach recibe una función que recibe como argumento el elemento que se esta iterando, también puede recibir el indice y por último el arreglo completo.
 - Además se puede pasar un argumento externo al final de la funcion y que se alamacena en la propiedad this del bloque (siempre y cuando el callback no sea una función flecha)
+
+### Modificar arreglos con map
+
+- El método map() crea un nuevo array con los resultados de la llamada a la función indicada aplicados a cada uno de sus elementos.
+- Map no modifica el arreglo original y retorna un nueva colección
+- Al igual que foreach, map recibe 3 argumentos en el callback, elemento, indice y el arreglo completo
+- También es posible pasarle un argumento al final de la declaración de la función y este puede ser accedido por la propiedad this (siempre y cuadno el callback no sea un arrow function)
+- En resumen, cuando se encesita modificar todos los elementos de un array y generarlo en un nuevo podemos usar map
