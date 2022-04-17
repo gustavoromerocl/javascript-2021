@@ -231,3 +231,8 @@ Veamos en los siguientes temas más detalles de cómo funcionan estas operacione
 - Recibe un función al igual que los métodos anteriores, la que se encarga de aplicar la condición
 - También recibe el indice el arreglo y el segundo argumento para this
 - En conclusión, el nuevo array descarta los elementos que cumplan con la condición
+
+### Reducir un arreglo a un solo elemento con reduce
+
+- La función reduce en su callback recibe un acumulador que guarda el valor retornado de la iteración anterior y el elemento que se esta iterando
+- El valor inicial del acumulador es undefined, para asignarle un valor se puede hacer pasandole un segundo argumento al final de la función
