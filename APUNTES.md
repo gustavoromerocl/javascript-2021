@@ -236,3 +236,28 @@ Veamos en los siguientes temas más detalles de cómo funcionan estas operacione
 
 - La función reduce en su callback recibe un acumulador que guarda el valor retornado de la iteración anterior y el elemento que se esta iterando
 - El valor inicial del acumulador es undefined, para asignarle un valor se puede hacer pasandole un segundo argumento al final de la función
+
+### Buscar elementos con un arreglo
+
+#### IndexOF (estrict)
+
+Retorna la posición del elemento que coincide con el valor pasado por argumento, la comparación es de caracter estricto ( === )
+Si no encuentra coincidencia, el valor retornado en -1
+ 
+#### Includes (estrict)
+
+Valida que el elemento exista en la coleccion, con comparación estricta ( === ), si existe retorna true, si no, retorna false
+Puede recibir un segundo argumento para indicar desde que posición inicia la busqueda
+
+#### Find
+  
+  Find retorna el elemento que coincida con la validación enviada en el callback
+
+#### FindIndex
+  
+  Find retorna el index del elemento que coincida con la validación enviada en el callback
+
+#### Some
+  
+  Este método también valida que el elemento exista, pero solo retorna true o false
+
