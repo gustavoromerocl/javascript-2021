@@ -261,3 +261,13 @@ Puede recibir un segundo argumento para indicar desde que posición inicia la bu
   
   Este método también valida que el elemento exista, pero solo retorna true o false
 
+### Spread y rest sintax (...)
+
+#### Spread (expansion) 
+
+  El spread syntax expande o destructura un array en elementos individuales
+
+#### Rest (unificar)
+
+- Los rest paramaters son el opuesto de la spread syntax y se utiliza en la definición de los parametros de una función
+- Su utilidad es unificar elementos individuales en un array
