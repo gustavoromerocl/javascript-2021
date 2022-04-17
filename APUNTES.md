@@ -224,3 +224,10 @@ Veamos en los siguientes temas más detalles de cómo funcionan estas operacione
 - Al igual que foreach, map recibe 3 argumentos en el callback, elemento, indice y el arreglo completo
 - También es posible pasarle un argumento al final de la declaración de la función y este puede ser accedido por la propiedad this (siempre y cuadno el callback no sea un arrow function)
 - En resumen, cuando se encesita modificar todos los elementos de un array y generarlo en un nuevo podemos usar map
+
+### Filtrar elementos con filter
+
+- Sirve para eliminar elementos de un arreglo aplicando una condición
+- Recibe un función al igual que los métodos anteriores, la que se encarga de aplicar la condición
+- También recibe el indice el arreglo y el segundo argumento para this
+- En conclusión, el nuevo array descarta los elementos que cumplan con la condición
