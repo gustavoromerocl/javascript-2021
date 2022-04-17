@@ -212,3 +212,7 @@ En este escenario, además de que usar un método del arreglo hace el código m�
 
 Veamos en los siguientes temas más detalles de cómo funcionan estas operaciones funcionales sobre arreglos.
 
+### Recorrer un arreglo con forEach
+
+- ForEach recibe una función que recibe como argumento el elemento que se esta iterando, también puede recibir el indice y por último el arreglo completo.
+- Además se puede pasar un argumento externo al final de la funcion y que se alamacena en la propiedad this del bloque (siempre y cuando el callback no sea una función flecha)
