@@ -272,6 +272,9 @@ Puede recibir un segundo argumento para indicar desde que posición inicia la bu
 - Los rest paramaters son el opuesto de la spread syntax y se utiliza en la definición de los parametros de una función
 - Su utilidad es unificar elementos individuales en un array
 
+
+## Objetos y JSON
+
 #### Qué es la programación orientada a objetos
 
 La programación orientada a objetos es un paradigma de programación basado en la creación de objetos que pueden contener datos y funciones.
@@ -293,3 +296,7 @@ De eso se trata separar nuestro código en objetos, de crear pequeños objetos, 
 Aunque en este bloque nos enfocaremos principalmente en el contexto y el valor de this, es importante comenzar hablando del tema de definición de objetos, que tiene mucho que ver con el del contexto, comencemos.
 
 Continuemos.
+
+#### Declarar un objeto JSON
+
+JSON o javascript object notation es un conjunto de elementos de primera clase alojados en un objeto, funciona de forma similar a un array, la diferencia esta en que se usa una key y un valor asignado a esa key, Ej: { key: valor }
